@@ -1,8 +1,8 @@
 # Titanic-Machine-Learning-from-Distaster
-## Overview
-### The Titanic dataset is a famous dataset that contains information about the passengers onboard the RMS Titanic, which famously sank on its maiden voyage on April 15, 1912. The dataset is often used in data analysis and machine learning projects as a beginner's dataset to practice data exploration, data cleaning, and predictive modeling.
-## Context
-### The dataset provides various attributes for each passenger, such as their age, sex, ticket class, cabin, fare, and whether they survived or not. The main goal is usually to predict whether a passenger survived based on the given features.
+### Overview
+The Titanic dataset is a famous dataset that contains information about the passengers onboard the RMS Titanic, which famously sank on its maiden voyage on April 15, 1912. The dataset is often used in data analysis and machine learning projects as a beginner's dataset to practice data exploration, data cleaning, and predictive modeling.
+### Context
+The dataset provides various attributes for each passenger, such as their age, sex, ticket class, cabin, fare, and whether they survived or not. The main goal is usually to predict whether a passenger survived based on the given features.
 
 ### Content
 The dataset consists of the following columns:
@@ -18,3 +18,8 @@ Ticket: Ticket number
 Fare: Passenger fare
 Cabin: Cabin number
 Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
+### Usage 
+The Titanic dataset is often used to explore data visualization, data preprocessing, and machine learning techniques. It has been used in competitions on platforms like Kaggle, where participants build predictive models to determine passenger survival.
+
+#### Dataset source: Kaggle - Titanic: Machine Learning from Disaster
+

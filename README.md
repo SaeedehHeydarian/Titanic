@@ -23,3 +23,36 @@ The Titanic dataset is often used to explore data visualization, data preprocess
 
 #### Dataset source:  [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
+
+
+
+# Importing Libraries 
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from scipy import stats
+from sklearn.model_selection import (train_test_split, GridSearchCV, RepeatedStratifiedKFold, cross_validate)
+from sklearn import set_config
+from imblearn.pipeline import Pipeline as imbPipeline ,make_pipeline
+from sklearn.compose import ColumnTransformer, make_column_selector
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler , OrdinalEncoder
+from feature_engine.selection import DropFeatures
+from sklearn.base import BaseEstimator, TransformerMixin
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import RandomUnderSampler
+from xgboost import XGBClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
+from sklearn.metrics import make_scorer , precision_score , recall_score , accuracy_score
+from sklearn.inspection import permutation_importance
+from scipy.stats import chi2_contingency
+from sklearn.model_selection import cross_val_predict
+get_ipython().run_line_magic('matplotlib', 'inline')
+
+# Loading Data and Exploring 
+
+Titanic_dataset=pd.read_csv(r"train (1).csv")
+
+
